@@ -9,5 +9,5 @@
   rm /tmp/$1.html
 
   ${pkgs.wget}/bin/wget $url
-  ${pkgs.wget}/bin/wget "$(echo $url | sed 's/_main/_sam_mimi/')"
+  ${pkgs.wget}/bin/wget "$(echo $url | sed 's/_main/_sam_mini/')"
   ''
